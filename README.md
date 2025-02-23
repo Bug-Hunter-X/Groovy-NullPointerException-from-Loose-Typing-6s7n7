@@ -1,0 +1,3 @@
+# Groovy NullPointerException from Loose Typing
+
+This example demonstrates a common issue in Groovy related to its dynamic typing and how it can lead to unexpected `NullPointerExceptions`.  The `myMethod` function, while seemingly simple, fails to properly handle `null` input values.  This can be easily remedied by performing explicit null checks before performing any operation that might not be null-safe.
